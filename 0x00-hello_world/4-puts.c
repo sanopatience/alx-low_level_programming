@@ -1,4 +1,4 @@
-#include <stidio.h>
+#include <stdio.h>
 /**
  * Description: main -Entry.
  * Return: returns 0.
