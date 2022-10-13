@@ -1,4 +1,4 @@
-#inclide <stidio.h>
+#include <stidio.h>
 /**
  * Description: main -Entry.
  * Return: returns 0.
