@@ -2,7 +2,7 @@
 
 /**
  * main -prints numbers from 0 to 9.
- * Returns: Always (success)
+ * Return: Always (success)
  */
 int main(void)
 {
@@ -12,5 +12,5 @@ for (n = '0'; n <= '9'; n++)
 putchar(n);
 }
 putchar('\n');
-return(0);
+return :(0);
 }
