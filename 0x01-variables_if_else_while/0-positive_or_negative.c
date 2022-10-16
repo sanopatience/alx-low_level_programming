@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
  /**
-  *Description: main -Prints if number is zero, negative, or positive.
+  *Description: main -Prints a text according to number
   * Return: Always (Success)
   */
 int main(void)
