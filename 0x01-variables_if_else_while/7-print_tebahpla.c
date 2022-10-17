@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *
- * main -prints alphabet in reverse order
+ * main - Entry
  * Return: Always (success)
  */
 int main(void)
