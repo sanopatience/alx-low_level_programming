@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
  /**
-  * main -Entry point
-  *Description:  Prints a text according to number
-  * Return: Always (Success)
+  * main -prints if number is positive, zero or negative.
+  *
+  * Return: Always (Success).
   */
 int main(void)
 {
