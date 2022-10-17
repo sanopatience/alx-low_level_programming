@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main -prints a serie of numbers with commas
- *
- * Reterun: Always (success)
+ * main - prints all combination of single digits
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,8 +11,8 @@ for (c = '0'; c <= '9'; c++)
 putchar(c);
 if (c != '9')
 {
-putchar(,);
-putchar('');
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
