@@ -3,28 +3,28 @@
 #include <stdio.h>
 
 /**
- * Prints a text according to the nimber
- * Returns Always if yes
+ *main -prints a text according to the nimber
+ * Returns: Always (success)
  */
 int main(void)
 {
-int n, last_d;
+int n, lastd;
 
 srand(time(0));
 n = rand() - RAND_MAX/2;
-last_d = n% 10;
+lastd = n% 10;
 
-if (last_d > 5)
+if (lastd > 5)
 {
-printf("Last digit of %d is %d and is grater than 5\n", n, last_d);
+printf("Last digit of %d is %d and is grater than 5\n", n, lastd);
 }
-else if (last_d == 0)
+else if (lastd == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, last_d);
+printf("Last digit of %d is %d and is 0\n", n, lastd);
 }
-else if (last_d < 6 && last_d != 0)
+else if (last_d < 6 && lastd != 0)
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_d);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 }
 return (0);
 }
