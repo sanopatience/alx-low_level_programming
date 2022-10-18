@@ -6,7 +6,7 @@
  */
 int main(void)
 {
--putchar('_');
+_putchar('_');
 _putchar('p');
 _putchar('u');
 _putchar('t');
@@ -15,5 +15,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-_putchar (0);
+_return (0);
 }
