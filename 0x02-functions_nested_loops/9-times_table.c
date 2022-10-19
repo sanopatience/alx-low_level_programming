@@ -16,7 +16,8 @@ for (mult = 1; mult <= 9; mult++)
 _putchar(',');
 _putchar(' ');
 }
-if (int prod <= 9 )
+prod = num * mult;
+if ( prod <= 9 )
 {
 _putchar(' ');
 }
