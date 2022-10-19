@@ -3,7 +3,7 @@
  * print_alphabet_x10 - prints alphabet 10 times
  * followed by a new line
  */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 int num;
 int c;
