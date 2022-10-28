@@ -15,8 +15,9 @@ while (n[i] != '\0')
 while (n[i] >= 'a' && n <= 'z')
 {
 n[i] = n[i] - 32;
-}
 i++;
+}
+
 }
 return (n);
 }
