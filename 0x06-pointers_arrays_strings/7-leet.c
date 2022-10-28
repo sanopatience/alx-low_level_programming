@@ -1,57 +1,27 @@
-#include "holberton.h"
-
-
+#include "main.h"
 
 /**
- *
- *  * leet - Write a function that encodes a string into 1337
- *
- *   *
- *
- *    * @changed: This is the input string
- *
- *     *
- *
- *      * Return: String converted to 1337
- *
- *       */
+ * leet - encodes a string into 1337
+ * @n: input
+ * Return: the value of n
+ */
 
-
-
-char *leet(char *changed)
-
+char *leet(char *n)
 {
+int i;
+int j;
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433007711"
 
-		int index, j;
-
-			char minus[] = {'a', 'e', 'o', 't', 'l', '\0'};
-
-				char mayus[] = {'A', 'E', 'O', 'T', 'L', '\0'};
-
-					char numbers[] = {'4', '3', '0', '7', '1', '\0'};
-
-
-
-						for (index = 0; changed[index] != '\0'; ++index)
-
-								{
-
-											for (j = 0; j < 5; j++)
-
-														{
-
-																		if (changed[index] == minus[j] || changed[index] == mayus[j])
-
-																						{
-
-																											changed[index] = numbers[j];
-
-																														}
-
-																				}
-
-												}
-
-							return (changed);
-
+for (i = 0; n[n] != '\0'; i++)
+{
+for (j = 0; j < 10; j++)
+{
+if (n[i] == s1[j])
+{
+n[i] = s2[j];
+}
+}
+}
+return (n);
 }
